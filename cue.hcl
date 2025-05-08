@@ -4,7 +4,7 @@ binaries = ["cue"]
 test = "cue version"
 
 version "0.4.0" "0.4.1" "0.4.2" "0.4.3" "0.5.0" "0.6.0" "0.7.0" "0.7.1" "0.8.0" "0.8.1"
-        "0.8.2" "0.10.1" "0.11.1" "0.12.0" {
+        "0.8.2" "0.10.1" "0.11.1" "0.12.0" "0.12.1" {
   auto-version {
     github-release = "cue-lang/cue"
   }
@@ -39,4 +39,6 @@ sha256sums = {
   "https://github.com/cue-lang/cue/releases/download/v0.11.1/cue_v0.11.1_darwin_amd64.tar.gz": "aba5b59b0a8454bcc9f1c25818a57e32925127f174ad105f88b7ef1ef35ba6bf",
   "https://github.com/cue-lang/cue/releases/download/v0.12.0/cue_v0.12.0_linux_amd64.tar.gz": "e55cd5abd98a592c110f87a7da9ef15bc72515200aecfe1bed04bf86311f5ba1",
   "https://github.com/cue-lang/cue/releases/download/v0.12.0/cue_v0.12.0_darwin_amd64.tar.gz": "8474e522a978ecadef49b06d706ff276cd07629b1aa107b88adfc1284d3f93cc",
+  "https://github.com/cue-lang/cue/releases/download/v0.12.1/cue_v0.12.1_linux_amd64.tar.gz": "40ef0a84594494c953945fb297842d3168c92170694928c9565cc0b581235ac5",
+  "https://github.com/cue-lang/cue/releases/download/v0.12.1/cue_v0.12.1_darwin_amd64.tar.gz": "a39201b519d26388074fdb5aaafc653e98bade9e3d4472d4044f75a6888bfcba",
 }
