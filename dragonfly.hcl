@@ -17,7 +17,7 @@ version "1.3.0" "1.2.1" "1.4.0" "1.6.0" "1.6.1" "1.6.2" "1.7.1" "1.8.0" "1.9.0"
         "1.10.0" "1.11.0" "1.12.0" "1.12.1" "1.13.0" "1.14.0" "1.14.1" "1.14.2" "1.14.3"
         "1.14.4" "1.14.5" "1.14.6" "1.15.0" "1.15.1" "1.16.0" "1.16.1" "1.17.0" "1.17.1"
         "1.18.0" "1.18.1" "1.24.0" "1.26.1" "1.27.1" "1.27.2" "1.28.0" "1.28.1" "1.29.0"
-        "1.30.0" "1.31.0" "1.31.2" {
+        "1.30.0" "1.31.0" "1.31.2" "1.32.0" {
   auto-version {
     github-release = "dragonflydb/dragonfly"
   }
@@ -102,4 +102,6 @@ sha256sums = {
   "https://github.com/dragonflydb/dragonfly/releases/download/v1.31.0/dragonfly-aarch64.tar.gz": "93e6d2329aec9f5142c9deb06dc4ac870e9741705bfe93b926df3611670607bf",
   "https://github.com/dragonflydb/dragonfly/releases/download/v1.31.2/dragonfly-x86_64.tar.gz": "6518495d3ad88b9baffca41b0f4688cade3c7dcf5203d25264be70e8fb55c82b",
   "https://github.com/dragonflydb/dragonfly/releases/download/v1.31.2/dragonfly-aarch64.tar.gz": "2a56c5edc47d9a4dd9e77d1ed2b7c607106e19173d9f6159199773ba9c40209b",
+  "https://github.com/dragonflydb/dragonfly/releases/download/v1.32.0/dragonfly-x86_64.tar.gz": "8ef311ee2d995e71ce372433f6b14b19719c346eb692317db07463048c20c35e",
+  "https://github.com/dragonflydb/dragonfly/releases/download/v1.32.0/dragonfly-aarch64.tar.gz": "d53504ff3ed29c049fddb6a557650084c9ff07e52cef9d092389a922cc5507e5",
 }
