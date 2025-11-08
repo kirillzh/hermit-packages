@@ -2,7 +2,7 @@ description = "Automatically gets credentials for Amazon ECR on docker push/dock
 source = "https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/${version}/${os}-${arch}/docker-credential-ecr-login"
 binaries = ["docker-credential-ecr-login"]
 
-version "0.6.0" "0.7.0" "0.7.1" "0.8.0" "0.9.0" "0.9.1" "0.10.0" "0.10.1" {
+version "0.6.0" "0.7.0" "0.7.1" "0.8.0" "0.9.0" "0.9.1" "0.10.0" "0.10.1" "0.11.0" {
   auto-version {
     github-release = "awslabs/amazon-ecr-credential-helper"
   }
@@ -41,4 +41,8 @@ sha256sums = {
   "https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.10.1/linux-amd64/docker-credential-ecr-login": "ae5f2c0f1a2283f687e24a529f41d58f29c0a5bcfa0b60d1d3f8dc33b7eac4f2",
   "https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.10.1/linux-arm64/docker-credential-ecr-login": "d321a6c4044fda6a4c6c6054d8e5b56ae9c902b6e37f5cc3b0d89df9298b07ef",
   "https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.10.1/darwin-amd64/docker-credential-ecr-login": "55cef1fcd428da65136ee373e1c4e1b85d39591db1c3f9e24b40e6ff38bf2632",
+  "https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.11.0/darwin-arm64/docker-credential-ecr-login": "bb39f61ada69d9f782ec9f6b34cb77b33e567700f41b79b19132b6fa26ccbe6a",
+  "https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.11.0/linux-amd64/docker-credential-ecr-login": "d6b23f3b6dc2f6af875902844af3bbb0d6ac4980e4b3815640c9b2e2e34267ae",
+  "https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.11.0/linux-arm64/docker-credential-ecr-login": "b1ba09040f102606b49f7f352eb3d8908ac38186b8fe5dec3ad17ed7d6f6b86d",
+  "https://amazon-ecr-credential-helper-releases.s3.us-east-2.amazonaws.com/0.11.0/darwin-amd64/docker-credential-ecr-login": "fbac9dce3c5fd64d42782fac629add9867e4faaaf879be91ef64bafe9828fb35",
 }
