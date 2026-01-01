@@ -10,7 +10,7 @@ on "unpack" {
   }
 }
 
-version "1.5.7" "1.5.9" "1.5.11" {
+version "1.5.7" "1.5.9" "1.5.11" "1.6.1" {
   auto-version {
     github-release = "dmarkham/enumer"
   }
@@ -29,4 +29,8 @@ sha256sums = {
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.5.11-darwin-amd64.bz2": "2b5c0bb6f235548b5adcb1dc3bd9a9ce582ceda55a47588df42ce7a84f760fb1",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.5.11-darwin-arm64.bz2": "8d85838eb5bfc17af3539313ac47b528142792c9bdea86d874516c75d3feb299",
   "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.5.11-linux-arm64.bz2": "694bdc648e0f162fcc32b2c8b94523333cb7fba4bd551348cd68d587ee5d6994",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.6.1-darwin-arm64.bz2": "5004c455285b28b70d46e1bee14ca6bdcf41ce64c36bb5ab828237b800a1e1ce",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.6.1-darwin-amd64.bz2": "b47caa26db6b5661e4cd997257d863cd3e9a6de74ed2145340e36c87d51cbd13",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.6.1-linux-arm64.bz2": "5efa91fd16f86f7ab18238e4e022c799c723ddf11c4e61362415f775078708bd",
+  "https://github.com/cashapp/hermit-build/releases/download/go-tools/enumer-v1.6.1-linux-amd64.bz2": "88808b68412636ac7ecedbbde602b74bd8f682de4dc31d3d32e224ce65434920",
 }
