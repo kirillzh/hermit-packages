@@ -37,7 +37,7 @@ platform "windows" {
   }
 }
 
-version "0.3.0" "0.4.0" "0.5.0" "1.0.0" {
+version "0.3.0" "0.4.0" "0.5.0" "1.0.0" "2.0.0" {
   auto-version {
     github-release = "bitwarden/sdk"
     ignore-invalid-versions = true
@@ -58,4 +58,7 @@ sha256sums = {
   "https://github.com/bitwarden/sdk/releases/download/bws-v1.0.0/bws-aarch64-apple-darwin-1.0.0.zip": "5dd716878e5627220aa254cbe4e41e978f226f72d9117fc195046709db363e20",
   "https://github.com/bitwarden/sdk/releases/download/bws-v1.0.0/bws-x86_64-apple-darwin-1.0.0.zip": "7e06cbc0f3543dd68585a22bf1ce09eca1d413322aa22554a713cf97de60495a",
   "https://github.com/bitwarden/sdk/releases/download/bws-v1.0.0/bws-x86_64-unknown-linux-gnu-1.0.0.zip": "9077fb7b336a62abc8194728fea8753afad8b0baa3a18723fc05fc02fdb53568",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v2.0.0/bws-x86_64-unknown-linux-gnu-2.0.0.zip": "a8340ce01da609200441f2eca0e591173e124f012c88a16afda574279c052013",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v2.0.0/bws-x86_64-apple-darwin-2.0.0.zip": "2f33fa7da3d7c3ee1838f3c5f3e8a47051e3fdb01c45701f6844fa0b344e92d1",
+  "https://github.com/bitwarden/sdk/releases/download/bws-v2.0.0/bws-aarch64-apple-darwin-2.0.0.zip": "5bbb43fcec75528c5d78e4dfdb22b6b368ecdff7020bcd853911564587f61f8a",
 }
