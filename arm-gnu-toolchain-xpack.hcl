@@ -16,7 +16,7 @@ platform "linux" "amd64" {
 }
 
 version "11.3.1-1.1" "12.2.1-1.2" "12.3.1-1.2" "13.2.1-1.1" "13.3.1-1.1"
-        "14.2.1-1.1" {
+        "14.2.1-1.1" "15.2.1-1.1" {
   auto-version {
     github-release = "xpack-dev-tools/arm-none-eabi-gcc-xpack"
   }
@@ -41,4 +41,7 @@ sha256sums = {
   "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v14.2.1-1.1/xpack-arm-none-eabi-gcc-14.2.1-1.1-darwin-arm64.tar.gz": "f52ea3760c53b25d726a7345be60a210736293db85f92daa39d1d22d34e2c995",
   "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v14.2.1-1.1/xpack-arm-none-eabi-gcc-14.2.1-1.1-linux-x64.tar.gz": "ed8c7d207a85d00da22b90cf80ab3b0b2c7600509afadf6b7149644e9d4790a6",
   "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v14.2.1-1.1/xpack-arm-none-eabi-gcc-14.2.1-1.1-darwin-x64.tar.gz": "b5bf8d5af099fd464d1543e5b8901308fb64116fa7a244426cacf4ff1b882fc7",
+  "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-darwin-x64.tar.gz": "5be906a5194c3173e145a58048e5607ffff947773237802b93e55e23c415f1b6",
+  "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-linux-x64.tar.gz": "da6a49ad4003944b823c6c93702a8787c922ab34bd7e918ec0eaf6933a9b1ff6",
+  "https://github.com/xpack-dev-tools/arm-none-eabi-gcc-xpack/releases/download/v15.2.1-1.1/xpack-arm-none-eabi-gcc-15.2.1-1.1-darwin-arm64.tar.gz": "574082d35e49a2bcbdc355836b2a3ae5e5bb3b9456c9f5e37177db2ab4aad870",
 }
